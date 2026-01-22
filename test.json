@@ -1,25 +1,7 @@
-{
-    "version": 1,
-    "data": [
-        {
-            "name": "TEST",
-            "description": "List of test",
-            "usage": 2,
-            "link": "https://github.com/magic-54/testa/blob/main/test.json",
-            "entries": [
-                {
-                    "value": "NATO",
-                    "category": "TEST"
-                },
-                {
-                    "value": "defence",
-                    "category": "Country"
-                },
-                {
-                    "value": "Albania",
-                    "category": "Country"
-                }
-            ]
-        }
-    ]
-}
+[
+  { "name": "Serbia", "description": "Country" },
+  { "name": "Serbian", "description": "Nationality" },
+  { "name": "Srbija", "description": "Country local" },
+  { "name": "Beograd", "description": "Capital city" },
+  { "name": "Belgrade", "description": "Capital city" }
+]
