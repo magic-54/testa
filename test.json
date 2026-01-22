@@ -1,7 +1,9 @@
-[
-  { "name": "Serbia", "description": "Country" },
-  { "name": "Serbian", "description": "Nationality" },
-  { "name": "Srbija", "description": "Country local" },
-  { "name": "Beograd", "description": "Capital city" },
-  { "name": "Belgrade", "description": "Capital city" }
-]
+{
+  "data": [
+    "Serbia",
+    "Serbian",
+    "Srbija",
+    "Beograd",
+    "Belgrade"
+  ]
+}
