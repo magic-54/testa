@@ -1,39 +1,58 @@
 {
-    "version": 1,
-    "data": [
-        {
-            "name": "CVE_PRODUCTS",
-            "description": "Products Exported from CVEList 2024-08-14T13:54:21.095888",
-            "usage": 4,
-            "link": "https://raw.githubusercontent.com/ait-cs-IaaS/wordlists/master/output/products.json",
-            "entries": [
-                {
-                    "value": "A-Form",
-                    "category": "CVE_PRODUCT",
-                    "description": "CVE-2022-38972"
-                },
-                {
-                    "value": "A-MQ Clients 2",
-                    "category": "CVE_PRODUCT",
-                    "description": "CVE-2022-4244"
-                },
-                {
-                    "value": "A-Series",
-                    "category": "CVE_PRODUCT",
-                    "description": "CVE-2023-5037"
-                },
-                {
-                    "value": "A-Tune-Collector",
-                    "category": "CVE_PRODUCT",
-                    "description": "CVE-2024-24897"
-                },
-                {
-                    "value": "A2 Optimized WP",
-                    "category": "CVE_PRODUCT",
-                    "description": "CVE-2023-23711"
-                },
-                {
-                    "value": "A300 EYES",
-                    "category": "CVE_PRODUCT",
-                    "description": "CVE-2023-2504"
-                },
+  "version": 1,
+  "data": [
+    {
+      "name": "CVE Vendors",
+      "description": "List of vendors that are known to be affected by a CVE.",
+      "link": "https://raw.githubusercontent.com/taranis-ai/wordlists/master/output/vendors.json",
+      "usage": 4
+    },
+    {
+      "name": "CVE Products",
+      "description": "List of products that are known to be affected by a CVE.",
+      "link": "https://raw.githubusercontent.com/taranis-ai/wordlists/master/output/products.json",
+      "usage": 4
+    },
+    {
+      "name": "Countries",
+      "description": "List of Countries",
+      "link": "https://raw.githubusercontent.com/taranis-ai/wordlists/master/output/countries.json",
+      "usage": 4
+    },
+    {
+      "name": "Austrian Municipalities",
+      "description": "List of Austrian Municipalities",
+      "link": "https://raw.githubusercontent.com/taranis-ai/wordlists/master/output/austrian_municipalities.json"
+    },
+    {
+      "name": "Common Cyber Security Terms",
+      "description": "List of common cyber security terms",
+      "link": "https://raw.githubusercontent.com/taranis-ai/wordlists/master/output/common.json",
+      "usage": 4
+    },
+    {
+      "name": "APT Groups",
+      "description": "List of Advanced Persistent Threat Groups",
+      "link": "https://raw.githubusercontent.com/taranis-ai/wordlists/master/output/apt.json",
+      "usage": 4
+    },
+    {
+      "name": "Länder",
+      "description": "Liste aller Länder",
+      "link": "https://raw.githubusercontent.com/taranis-ai/wordlists/master/output/countries_german.json",
+      "usage": 4
+    },
+    {
+      "name": "Internationale Organisationen",
+      "description": "Wichtigsten internationalen Organisationen",
+      "link": "https://raw.githubusercontent.com/taranis-ai/wordlists/master/output/ngos_german.json",
+      "usage": 4
+    },
+    {
+      "name": "Unternehmen Österreich",
+      "description": "Größten Unternehmen in Österreich",
+      "link": "https://raw.githubusercontent.com/taranis-ai/wordlists/master/output/companies_austria.json",
+      "usage": 4
+    }
+  ]
+}
