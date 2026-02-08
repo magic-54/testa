@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "data": [
+    {
+      "name": "Geopolitics",
+      "description": "Geopolitical actors, international organisations, conflicts and strategic terms",
+      "usage": 4,
+      "link": "https://raw.githubusercontent.com/<tvoj-username>/taranis-wordlists/main/geopolitics.json",
+      "entries": [
+        { "value": "NATO", "category": "Organisation" },
+        { "value": "European Union", "category": "Organisation" },
+        { "value": "EU", "category": "Organisation" },
+        { "value": "United Nations", "category": "Organisation" },
+        { "value": "UN", "category": "Organisation" },
+        { "value": "OSCE", "category": "Organisation" },
+        { "value": "BRICS", "category": "Organisation" },
+        { "value": "G7", "category": "Organisation" },
+        { "value": "G20", "category": "Organisation" },
+        { "value": "CSTO", "category": "Organisation" },
+
+        { "value": "sanctions", "category": "Concept" },
+        { "value": "economic sanctions", "category": "Concept" },
+        { "value": "military escalation", "category": "Concept" },
+        { "value": "armed conflict", "category": "Concept" },
+        { "value": "war", "category": "Concept" },
+        { "value": "invasion", "category": "Concept" },
+        { "value": "occupation", "category": "Concept" },
+        { "value": "ceasefire", "category": "Concept" },
+        { "value": "peace talks", "category": "Concept" },
+        { "value": "proxy war", "category": "Concept" },
+        { "value": "hybrid warfare", "category": "Concept" },
+        { "value": "state-sponsored", "category": "Concept" },
+
+        { "value": "Ukraine", "category": "Region" },
+        { "value": "Russia", "category": "Country" },
+        { "value": "China", "category": "Country" },
+        { "value": "United States", "category": "Country" },
+        { "value": "Iran", "category": "Country" },
+        { "value": "North Korea", "category": "Country" },
+        { "value": "Israel", "category": "Country" },
+        { "value": "Gaza", "category": "Region" },
+        { "value": "Middle East", "category": "Region" },
+        { "value": "Taiwan", "category": "Region" },
+        { "value": "South China Sea", "category": "Region" },
+        { "value": "Western Balkans", "category": "Region" },
+
+        {
+          "value": "\\b(NATO|EU|United Nations|sanctions|armed conflict|military escalation|proxy war)\\b",
+          "category": "Regex",
+          "type": "regex"
+        }
+      ]
+    }
+  ]
+}
