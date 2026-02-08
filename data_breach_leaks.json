@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "data": [
+    {
+      "name": "Data Breach & Leaks",
+      "description": "Keywords related to data breaches, leaks, extortion and stolen data disclosures",
+      "usage": 2,
+      "link": "https://raw.githubusercontent.com/magic-54/testa/main/data_breach_leaks.json",
+      "entries": [
+        { "value": "data breach", "category": "Incident" },
+        { "value": "data leak", "category": "Incident" },
+        { "value": "database leak", "category": "Incident" },
+        { "value": "database dump", "category": "Leak Type" },
+        { "value": "leaked database", "category": "Leak Type" },
+        { "value": "stolen data", "category": "Leak Type" },
+        { "value": "exfiltrated data", "category": "Technique" },
+        { "value": "data exfiltration", "category": "Technique" },
+        { "value": "customer data leaked", "category": "Impact" },
+        { "value": "employee data leaked", "category": "Impact" },
+        { "value": "credentials leaked", "category": "Impact" },
+        { "value": "password dump", "category": "Leak Type" },
+        { "value": "PII leaked", "category": "Impact" },
+        { "value": "sensitive data exposed", "category": "Impact" },
+        { "value": "breach claimed", "category": "Claim" },
+        { "value": "claimed responsibility", "category": "Claim" },
+        { "value": "leak site", "category": "Infrastructure" },
+        { "value": "dark web leak", "category": "Infrastructure" },
+        { "value": "data for sale", "category": "Dark Web" },
+        { "value": "database for sale", "category": "Dark Web" },
+        { "value": "access for sale", "category": "Dark Web" },
+        { "value": "initial access broker", "category": "Dark Web" },
+        { "value": "corporate access for sale", "category": "Dark Web" },
+        { "value": "breach notification", "category": "Disclosure" },
+        { "value": "data exposure incident", "category": "Incident" },
+        { "value": "information disclosure", "category": "Incident" }
+      ]
+    }
+  ]
+}
